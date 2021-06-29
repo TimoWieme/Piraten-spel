@@ -18,7 +18,7 @@ export class Player extends gameObject {
     update() {
         super.update();
         let newy = this.y + this.verticalSpeed;
-        if (newy > 0 && newy + this.getBoundingRect().height < window.innerHeight) {
+        if (newy > 90 && newy + this.getBoundingRect().height < window.innerHeight - 90) {
             this.y = newy;
         }
     }

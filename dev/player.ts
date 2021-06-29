@@ -31,7 +31,7 @@ export class Player extends gameObject {
         // Add the vertical speed to the y-value
         let newy = this.y + this.verticalSpeed
         // Make sure player cant get out of the screen
-        if (newy > 0 && newy + this.getBoundingRect().height < window.innerHeight) {
+        if (newy > 90 && newy + this.getBoundingRect().height < window.innerHeight - 90) {
             this.y = newy
         }
     }
