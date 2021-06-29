@@ -1,3 +1,3 @@
 # Piraten-spel
 <br>
-<a href=""> Link naar game <a>
+<a href="https://timowieme.github.io/Piraten-spel/"> Link naar game <a>
